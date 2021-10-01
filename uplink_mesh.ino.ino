@@ -29,7 +29,9 @@ void uplink_execute()
 // use the uplink_send command to send messages to the mesh
 void uplink_send(String uplstr)
 {
+  String nodename = "nodenamehere";
   uplstr += mesh.getNodeId();
+  uplstr += alpha;
   mesh.sendBroadcast(uplstr);
   
 }
