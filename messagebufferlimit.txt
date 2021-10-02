@@ -1,0 +1,2 @@
+message buffer limit 
+if the message rate is more than 10000 times the second the buffer gets full which causes the overheating of the cheap leading to damages.
